@@ -34,9 +34,9 @@ int main()
 	}
 
 	while (1) {
+		video >> frame;
 		if (frame.empty()) //더이상 읽을 프레임이 없으면 종류
 			break;
-		video >> frame;
 
 		imshow("test_video", frame);
 
